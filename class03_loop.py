@@ -17,9 +17,21 @@
 #     x = sum*i
 #     print(sum,"*",i,":",x)
 
-i = 0
-while i < 5:
-    print("hello")
-    i += 1
-    if i == 4:
-        break
+# i = 0
+# while i < 5:
+#     print("hello")
+#     i += 1
+#     if i == 4:
+#         break
+
+start = True
+while start:
+    print("เลือกข้อที่ต้องการเล่น")
+    print("ข้อที่ [1] โจทย์แรก")
+    print("ข้อที่ [2] โจทย์แรก")
+    x = int(input("กรุณากรอกเลข: "))
+    if (x == 1):
+        print("ทำโจทย์ที่ 1")
+    elif (x == 2): 
+        print("ทำโจทย์ที่ 2")
+    start = False

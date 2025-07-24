@@ -13,3 +13,10 @@ elif username == "user":
         print("Wrong")
 else:
     print("Not found")
+
+
+#---------------------------------------
+
+
+x = (input("your: "))
+word = ""
